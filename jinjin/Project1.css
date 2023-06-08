@@ -17,8 +17,8 @@ body {
 }
 #Whole {
     width: 100%;
-    height: 300ch;
-    background-color: #ff5b74;
+    height: 200ch;
+    background-color: rgb(255, 248, 238);
     
 }
 #UpBar {
@@ -158,4 +158,20 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+
+#Code {
+    height: 80%;
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: auto;
+    border-color: #242d2c;
+    background-color: #a3a3a3;
+    border-radius: 20px;
+    border: 20px;
+    border: 10px;
 }
