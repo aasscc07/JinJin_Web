@@ -12,6 +12,15 @@
     /* src: url('Jost/Jost-VariableFont_wght.ttf'); */
     src: url('Bebas_Neue/BebasNeue-Regular.ttf');
 }
+@font-face {
+    font-family: Gasoek_One;
+    src: url('Gasoek_One/GasoekOne-Regular.ttf');
+}
+@font-face {
+    font-family: Lobster;
+    /* src: url('Jost/Jost-VariableFont_wght.ttf'); */
+    src: url('Lobster/Lobster-Regular.ttf');    
+}
 body {
     margin: 0;
 }
@@ -19,6 +28,7 @@ body {
     width: 100%;
     height: 240ch;
     background-color: white;
+    /* background-image: url('paint_background.jpeg'); */
     
 }
 #UpBar {
@@ -162,10 +172,15 @@ body {
 #explanation_us {   
     width: 100%;
     height: 70vh ;
-    background-color: rgb(234, 233, 234)  ;
+    background-color: rgb(255, 255, 255)  ;
     text-align: left;
     letter-spacing: -.0375em;
     padding-right: 0;
+    border: 4px solid;
+    border-color: rgb(0, 0, 0);
+    
+    
+    
 
 }
 
@@ -193,29 +208,20 @@ body {
 }
 
 #person1 {
-    width: calc(100% / 3);
+    width: calc(100% / 2);
     height: 100%;
-    background-color: #5effdc;
+    background-color: #ffffff;
     float: left;
     display: flex;
     align-items: center;
     -webkit-transition : height 1s;
-    transition: 7.5vh;
+   
+
 }
 #person2 {
-    width: calc(100% / 3);
+    width: calc(100% / 2);
     height: 100%;
-    background-color: #3aa3ff;
-    float: left;
-    display: flex;
-    align-items: center;
-    -webkit-transition : height 1s;
-    transition: 7.5vh;
-}
-#person3 {
-    width: calc(100% / 3);
-    height: 100%;
-    background-color: #ea48ff;
+    background-color: #ffffff;
     float: left;
     display: flex;
     align-items: center;
@@ -224,7 +230,46 @@ body {
 }
 #person_inform{
     width: 100%;
-    height: 92ch;
+    height: 97ch;
     background-color: rgb(255, 255, 255);
     font-family: Oswald;
+    border: 4px solid;
+    border-color: rgb(0, 0, 0);
+    border-top: 2.5px
+   
 }
+#explanation_person{
+    width: 700px;
+    height: 700px;
+    margin: auto;
+    background-color: rgb(209, 209, 209);
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 5px #2e3837;
+
+}
+#person_name{
+    font-family: Gasoek_One;
+    font-weight: 100;
+    font-size: 70px;
+    margin-left: 250px;
+   
+
+}
+#person_explanation{
+    font-family: Jost;
+    font-weight: 500;
+    font-size: x-large;
+    margin-left: 80px;
+    
+}
+
+
+#person_icon{
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 110px;
+}
+
